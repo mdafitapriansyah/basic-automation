@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.9.2 on win32)" generated="20231217 17:48:12.218" rpa="false" schemaversion="4">
+<suite id="s1" name="Test2" source="C:\Users\Dafit_\Desktop\Automation Login\test2.robot">
+<test id="s1-t1" name="Login to Website" line="5">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://mdafitapriansyah.000webhostapp.com/projek_akhir/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231217 17:48:12.500" level="INFO">Opening browser 'chrome' to base url 'https://mdafitapriansyah.000webhostapp.com/projek_akhir/'.</msg>
+<status status="PASS" starttime="20231217 17:48:12.500" endtime="20231217 17:48:19.816"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[@name='username']</arg>
+<arg>guest</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20231217 17:48:19.826" level="INFO">Typing text 'guest' into text field '//input[@name='username']'.</msg>
+<status status="PASS" starttime="20231217 17:48:19.825" endtime="20231217 17:48:19.975"/>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<arg>//input[@name='password']</arg>
+<arg>guest</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<msg timestamp="20231217 17:48:19.975" level="INFO">Typing password into text field '//input[@name='password']'.</msg>
+<msg timestamp="20231217 17:48:20.024" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20231217 17:48:20.092" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20231217 17:48:19.975" endtime="20231217 17:48:20.092"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>//button[@type='submit']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20231217 17:48:20.094" level="INFO">Clicking button '//button[@type='submit']'.</msg>
+<status status="PASS" starttime="20231217 17:48:20.094" endtime="20231217 17:48:49.194"/>
+</kw>
+<status status="PASS" starttime="20231217 17:48:12.500" endtime="20231217 17:48:49.194"/>
+</test>
+<status status="PASS" starttime="20231217 17:48:12.218" endtime="20231217 17:48:49.198"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test2">Test2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
